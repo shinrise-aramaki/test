@@ -1,0 +1,37 @@
+body, p, h1, h2, h3, h4, h5, h6, figure, ul, ol, dl, dd {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+body {
+  background-color: gray;
+}
+body h2 {
+  font-size: 30px;
+  padding: 10px 0;
+}
+body dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+body dt {
+  width: 30%;
+  padding: 10px 0;
+  border-bottom: 1px dotted gray;
+}
+body dd {
+  width: 70%;
+  text-align: left;
+  padding: 10px 0;
+  border-bottom: 1px dotted gray;
+}
+body .main {
+  height: 300px;
+  width: 500px;
+  margin: 20px auto 0;
+  background-color: white;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
